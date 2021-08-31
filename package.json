@@ -1,0 +1,60 @@
+{
+  "name": "webpack-narrow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "build-org": "webpack --mode=production --config org.config.js",
+    "start": "webpack serve --mode=development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-import": "^1.13.3",
+    "compression-webpack-plugin": "^8.0.0",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "json-server": "^0.16.3",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.19.0",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "antd": "^4.16.2",
+    "axios": "^0.21.1",
+    "jquery": "^3.6.0",
+    "jquery-ui": "^1.12.1",
+    "jszip": "^3.6.0",
+    "promise-polyfill": "^8.2.0",
+    "react": "^17.0.1",
+    "react-app-polyfill": "^2.0.0",
+    "react-dom": "^17.0.1",
+    "react-draggable": "^4.4.3",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
+    "xlsx": "^0.17.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
